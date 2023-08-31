@@ -11,7 +11,7 @@
 #increment right by 1 
 
 class Solution(object):
-    def maxProft(self, prices: List[int]) -> int:
+    def maxProft(self, prices):
         left, right = 0, 1
         maxP = 0
 
